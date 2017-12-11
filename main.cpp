@@ -12,7 +12,7 @@ int main(int argc, char* argv[]){
      cin >> n[i];
  }
  for (i = 0; i < k / 2; i++) {
-     swap (n[i], n[k - i - 1]);
+     swap (n[i], n[k-i-1]);
  }
  for (i = 0; i < k; i++) {
      cout << m[i] << " ";
