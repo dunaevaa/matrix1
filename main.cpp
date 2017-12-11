@@ -7,7 +7,7 @@ int main(int argc, char* argv[]){
      cout << "An error has occurred while reading input data" << endl;
      return 0; 
  }
- int *n = new int[a];
+ int *n = new int[k];
  for (i = 0; i < k; i++) {
      cin >> n[i];
  }
