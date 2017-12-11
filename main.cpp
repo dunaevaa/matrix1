@@ -15,8 +15,8 @@ int main(int argc, char* argv[]){
      swap (n[i], n[k-i-1]);
  }
  for (i = 0; i < k; i++) {
-     cout << m[i] << " ";
+     cout << n[i] << " ";
  }
- delete [] m;
+ delete [] n;
  return 0;
 }
